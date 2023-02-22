@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>First conditional example</title>
+      </head>
+
+
+<body>
+
+
+    <script>
+        console.log("Hello, World!")
+    </script>
+
+
+
+    <script>
+        console.log("Hello, World1")
+    </script>
+
+
+
+    <script>
+        let message1;
+        message1 = "Hello via let viariable";
+
+        alert(message1);
+
+
+        let message2 = 'Hello via combination';
+        alert(message2);
+    </script>
+
+
+
+
+    <script>
+        let user = 'John', 
+        age = 25, 
+        message3 = 'hello';
+    </script>
+
+
+
+    <script>
+        let user2 = 'John'
+        , age2 = 25
+        , message4 = 'Hello4';
+    </script>
+
+
+    <script>
+        let message5;
+
+        message5 = 'Hello5'
+
+        message5 = 'hello555' // value should change
+
+        alert(message5);
+
+        </script>
+
+    
+    <script>
+        let hello = 'Hellow World again twice';
+
+        let message6;
+
+        message6 = hello;
+
+        alert(hello);
+        alert(message6);
+
+    </script>
+
+    <script>
+        let message7 = 'This';
+
+        /*let message7 = 'That'; // SyntaxError: 'message7' has already been declared*/
+        </script>
+
+    <script>
+        let userName;
+        let test123;
+        /*let 123test //first chracter must not be a digit. */
+        /*let ----- //hypens are not allowed */
+    </script>
+
+    <script>
+        let $ = 1;
+        let _ = 4;
+        let result = "This is the result of 1 + 4 = "
+        alert(result + $ + _);
+    </script>
+
+    <script>
+        const myBirthday = '29.04.1987';
+        /*myBirthday = '01.01.2002'; // Syntax error: const is unchangable */ 
+    </script>
+
+    <script>
+        const COLOR_RED = "#F00";
+        const COLOR_GREEN = "#0F0";
+        const COLOR_BLUE = "#00F";
+        const COLOR_ORANGE = "FF7F00";
+        
+        let color = COLOR_BLUE
+        alert(color);
+
+          /*
+    let = modern variable
+    var = old variable
+    const = special variable that unchangable */
+    </script>
+  
+
+    <script>
+        let admin, name;
+        name = "John";
+        admin = name;
+        alert(admin);
+    </script>
+
+    <script>
+        let ourPlanetName = "Earth";
+        let currentUserName = "Nico";
+    </script>
+
+    <script>
+        const birthday = '18.04.1982';
+        const age5 = (birthday);
+        </script>
+
+    <h2>JavaScript Arithmetic</h2>
+    <p id="demo0"></p>
+    <script>
+    let x = 100 + 50;
+    document.getElementById("demo0").innerHTML = x;
+    
+    </script>
+
+
+    <h2>JavaScript Arithmetic Variable</h2>
+    <p id="demo1"></p>
+    <script>
+        let a = 200;
+        let b = 70;
+        let c = a + b;
+    document.getElementById("demo1").innerHTML = c;
+    </script>
+
+
+    <h2>Arithmetic Operations Expression</h2>
+    <p id="demo2"></p>
+    <script>
+        let aa = 3;
+        let xx = (200 + 50) * aa;
+    document.getElementById("demo2").innerHTML = xx; 
+    </script>
+
+
+    <h2>The + Operator</h2>
+    <p id="demo3"></p>
+
+    <script>
+        let xxx = 55;
+        let yyy = 22
+        let zzz = xxx + yyy;
+        document.getElementById("demo3").innerHTML = zzz;
+    </script>
+
+    <h2> The - Operator </h2>
+    <p id="demo4"></p>
+
+    <script>
+        let x1 = 55;
+        let y1 = 22;
+        let z1 = y1 - x1;
+        document.getElementById("demo4").innerHTML = z1;
+    </script>
+
+
+    <h2> The * Operator </h2>
+    <p id="demo5"></p>
+    <script>
+        let xx1 = 55;
+        let yy1 = 22;
+        let zz1 = yy1 * xx1;
+        document.getElementById("demo5").innerHTML = zz1;
+    </script>
+
+
+    <h2>The / Operator </h2>
+    <p id="demo6"></p>
+    <script>
+        let x11 = 55;
+        let y11 = 22;
+        let z11 = x11 / y11;
+        document.getElementById("demo6").innerHTML = z11;
+    </script>
+
+
+    <h2>The % Operator </h2>
+    <p id="demo7"></p>
+    <script>
+        let xxx1 = 5;
+        let yyy1 = 2;
+        let zzz1 = yyy1 % xxx1;
+        document.getElementById("demo7").innerHTML = yyy1;
+    </script>
+
+
+    <h2> The Increment Operator </h2>
+    <p id="demo8"></p>
+    <script>
+        let x_1 = 555;
+        x_1++;
+        let z_1 = x_1;
+        document.getElementById("demo8").innerHTML = z_1;
+    </script>
+
+    <h2> The Decrement Operator </h2>
+    <p id="demo9"></p>
+    <script>
+        let x_x1 = 555;
+        x_x1--;
+        let z_z1 = x_x1;
+        document.getElementById("demo9").innerHTML = z_z1;
+    </script>
+
+
+    <h2> The Exponentiation (**) </h2>
+    
+        <p id="demo10"></p>
+        <script>
+        let x111 = 5;
+        let y111 = x111 ** 5;
+        
+        document.getElementById("demo10").innerHTML = y111;
+    </script>
+
+    <h2> The Math.pow, similar to ** </h2>
+    <p id="demo11"></p>
+    <script>
+        let xxx111 = 5
+        let yyy111 = Math.pow(xxx111, 2);
+        document.getElementById("demo11").innerHTML = yyy111;
+    </script>
+
+    <h2> The Operator Precedence </h2>
+    <p id="demo12"></p>
+    <script>
+        let x1x1 = 100 + 50 * 30;
+        document.getElementById("demo12").innerHTML = x1x1;
+    </script>
+
+    <h2> The Operator () Precedence </h2>
+    <p id="demo13"></p>
+    <script>
+        const y1y1 = (100 + 50) * 3;
+        
+        document.getElementById("demo13").innerHTML = y1y1;
+        const myNumber = 777;
+        typeof myNumber;
+        
+    </script>
+
+    <h2>Numbers - Decimal Places </h2>
+    <p id="demo14"></p>
+    <script>
+       
+        </script>
+
+
+
+
+
+
+    <button>Start machine</button>
+    <p>The machine is stopped.</p>
+  
+
+  <script>
+    const btn = document.querySelector('button');
+    const txt = document.querySelector('p');
+
+    btn.addEventListener('click', updateBtn);
+
+    function updateBtn() {
+      if(btn.textContent === 'Start machine') {
+        btn.textContent = 'Stop machine';
+        txt.textContent = 'The machine has started!';
+      } else {
+        btn.textContent = 'Start machine';
+        txt.textContent = 'The machine is stopped.';
+      }
+    }
+  </script>
+</body>
+
+
+</html>
+

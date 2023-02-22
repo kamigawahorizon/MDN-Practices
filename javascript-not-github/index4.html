@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta charset="UTF-8"/>
+    </head>
+
+    <body>
+       
+
+        <button>Press me</button>
+
+        <script>
+         
+         const button = document.querySelector("button");
+
+        function greet() {
+        const name = prompt("What is your name?");
+        alert(`Hello ${name}, nice to see you!`);
+        }
+
+            button.addEventListener("click", greet);
+
+
+        const bigmouth = 'I\'ve got no right to take my place…';
+        const greeting = `hallow pow pow`;
+        const name = `${greeting} Nicolow`
+        const study = ` , you are studying The Odin Project, Fundamental 2. `;
+        const combine = `${name}${study}`;
+        const plan = `tom, you need to finish fundamentals 3. thanks.`
+        const combine1 = `${combine}${plan}`;
+
+        let habaNgString = greeting.slice(-7, -14);
+        let age = 5;
+        let msg = age >= 18 ? "You can vote" : "How can you vote when you are 18 & below?"
+
+        console.log(bigmouth);
+        console.log(greeting);
+        console.log(name);
+        console.log(combine);
+        console.log(combine1);
+        console.log(habaNgString);
+        console.log(msg);
+
+        </script>
+       
+    </body>
+</html>
